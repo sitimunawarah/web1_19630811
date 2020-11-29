@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h1>Silahkan isi data di bawah ini dengan benar : </h1>
+    <form action="proses.php" method="POST">
+        <label>Nama : </label>
+        <input type="text" name="nama" placeholder="Ketikkan Nama Anda">
+        <br>
+
+        <label>Password : </label>
+        <input type="password" name="password" placeholder="Ketikkan Password Anda">
+        <br>
+
+        <label>Jenis Kelamin</label>
+        <input type="radio" name="jenis_kelamin" value="L">Laki-Laki
+        <input type="radio" name="Jenis_kelamin" value="P">Perempuan
+        <br>
+
+        <label>Hobi:</label>
+        <input type="checkbox" name="hobi1">Gaming
+        <input type="checkbox" name="hobi2">Travelling
+        <input type="checkbox" name="hobi3">Bobo
+        <br>
+
+        <table>tempat lahir
+        <select name="tempat_lahir" >
+             <option value="banjarmasin">Banjarmasin</option>
+            <option value="Banjarbaru">Banjarbaru</option>
+            <option value="gambut" selected>gambut</option>
+        </select>
+        </table>
+
+        <table>Tanggal Lahir</table>
+        <td>
+        <input placeholder="DD" type="data" size="2" name="tgl_lahir"> /
+        <input placeholder="MM" type="data" size="2" name="bln"> /
+        <input placeholder="THN" type="data" size="5" name="thn">
+        </td>
+        <br>
+
+        <label>Keterangan : </label>
+        <textarea name="keterangan" cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="kirim Data">
+        
+    </form>
+</body>
+</html>

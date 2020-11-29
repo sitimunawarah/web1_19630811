@@ -1,0 +1,11 @@
+h1 {
+    color: fuchsia;
+    font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: indigo;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}

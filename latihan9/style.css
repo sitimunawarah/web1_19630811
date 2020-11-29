@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+.header {
+    height: 140px;
+    margin-bottom: 15px;
+    background-color: #f86bc0;
+}
+.content {
+    width: 690px;
+    height: 450px;
+    background-color: #f86bc0;
+    float: left;
+}
+.sidebar {
+    width: 275px;
+    height: 450px;
+    background-color: #f86bc0;
+    float: right;
+}
+.clear {
+    clear: both;
+}
+.footer {
+    height: 70px;
+    margin-top: 15px;
+    background-color: #f86bc0;
+}
